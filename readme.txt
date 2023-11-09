@@ -13,6 +13,8 @@ The TDEE calculator provides an accurate estimate of your daily caloric expendit
 
 The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. 
 
+[TDEE Calculator Homepage](https://www.calculator.io/tdee-calculator/ "TDEE Calculator Homepage")
+
 __Shortcode__
 
 Use the TDEE Calculator shortcode:

@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. 
 
-== Description ==
-
-The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. 
-
 [https://www.calculator.io/tdee-calculator/](https://www.calculator.io/tdee-calculator/)
 
-__TDEE Calculator Shortcode__
+== Usage ==
+
+Add the TDEE Calculator shortcode to your page, post or sidebar:
 
 `[ci_tdee_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the TDEE Calculator to appear:
 
-1. Upload the /ci_tdee_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [TDEE Calculator](https://www.calculator.io/tdee-calculator/ "TDEE Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== TDEE Calculator Usage ==
-
-* Add the shortcode `[ci_tdee_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_tdee_calculator(); ?>` to your template where you would like the TDEE Calculator to appear.
+`<?php display_ci_tdee_calculator(); ?>`
 
 == Screenshots ==
 
 1. The TDEE Calculator Input Form.
 2. The TDEE Calculator Calculation Results.
 
-== Libraries used in TDEE Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the TDEE Calculator /ci_tdee_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the TDEE Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of TDEE Calculator

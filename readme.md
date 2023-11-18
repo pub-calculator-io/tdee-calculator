@@ -1,4 +1,4 @@
-# TDEE Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# TDEE Calculator Widget for WordPress
 
 The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. 
 

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: TDEE Calculator by www.calculator.io
+Plugin Name: CI Tdee calculator
 Plugin URI: https://www.calculator.io/tdee-calculator/
 Description: The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. 
 Version: 1.0.0

@@ -1,4 +1,4 @@
-=== TDEE Calculator ===
+=== TDEE Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: tdee calculator, daily caloric expenditure, bmr (basal metabolic rate), body fat percentage, mifflin st jeor formula, harris-benedict formula, katch-mcardle formula, activity level, weight management, calorie intake and expenditure
 Requires at least: 5.0

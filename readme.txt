@@ -24,7 +24,6 @@ Add the following code to your template where you would like the TDEE Calculator
 == Screenshots ==
 
 1. The TDEE Calculator Input Form.
-2. The TDEE Calculator Calculation Results.
 
 == Installation ==
 

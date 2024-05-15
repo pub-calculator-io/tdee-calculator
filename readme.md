@@ -3,7 +3,6 @@
 The TDEE calculator provides an accurate estimate of your daily caloric expenditure using your BMR and several other personal characteristics. 
 
 ![TDEE Calculator Input Form](/assets/images/screenshot-1.png "TDEE Calculator Input Form")
-![TDEE Calculator Calculation Results](/assets/images/screenshot-2.png "TDEE Calculator Calculation Results")
 
 ## Installation
 

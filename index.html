@@ -53,7 +53,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col bmi-calculator,calorie-calculator,bmr-calculator,body-fat-percentage-calculator,protein-calculator  ">
                 			<p class="input__title">Age</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="age" value="30"  />
@@ -90,7 +90,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col ">
+                		<label class="input col bmi-calculator,calorie-calculator,bmr-calculator,body-fat-percentage-calculator,protein-calculator">
                 			<p class="input__title">Activity</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -169,7 +169,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher" onclick="toggleSystem(this)">
+                		<button class="system-switcher" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M10.5 9.5H10C9.44772 9.5 9 9.05228 9 8.5V2.5M4.5 2.5H3.5C2.94772 2.5 2.5 2.94772 2.5 3.5L2.5 9.5M7.5 4.5L10.5 4.5M1.5 5.5L4.5 5.5" stroke="white" stroke-width="2" stroke-linecap="round"></path>
@@ -190,13 +190,15 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -211,11 +213,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--small table-cell--only-title">Total Daily Energy Expenditure (TDEE)</p>
-	<p class="table-cell table-cell--big table-cell--age table-cell--only row"><span id="text-result">2,626</span>Calories per day</p>
+	<p class="table-cell table-cell--big table-cell--age table-cell--only row animate"><span id="text-result">2,626</span>Calories per day</p>
 	<div class="result-table__wrapper" id="result">
 		<table class="result-table">
 			<thead>
@@ -230,44 +231,44 @@
 				<tr>
 					<td><p class="tag tag--red">Extreme Weight Loss</p></td>
 					<td id="result_1_weight">-2 lb/week</td>
-					<td id="result_1">1,626 cal/day</td>
-					<td id="result_1_percent">62%</td>
+					<td id="result_1" class="animate">1,626 cal/day</td>
+					<td id="result_1_percent" class="animate">62%</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--yellow">Weight loss</p></td>
 					<td id="result_2_weight">-1 lb/week</td>
-					<td id="result_2">2,126 cal/day</td>
-					<td id="result_2_percent">81%</td>
+					<td id="result_2" class="animate">2,126 cal/day</td>
+					<td id="result_2_percent" class="animate">81%</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--green">Mild weight loss</p></td>
 					<td id="result_3_weight">-0.5 lb/week</td>
-					<td id="result_3">2,376 cal/day</td>
-					<td id="result_3_percent">90%</td>
+					<td id="result_3" class="animate">2,376 cal/day</td>
+					<td id="result_3_percent" class="animate">90%</td>
 				</tr>
 				<tr>
 					<td><p class="tag">Maintain weight</p></td>
 					<td id="result_4_weight">0 lb/week</td>
-					<td id="result_4">2,626 cal/day</td>
-					<td id="result_4_percent">100%</td>
+					<td id="result_4" class="animate">2,626 cal/day</td>
+					<td id="result_4_percent" class="animate">100%</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--green">Mild weight gain</p></td>
 					<td id="result_5_weight">+0.5 lb/week</td>
-					<td id="result_5">2,876 cal/day</td>
-					<td id="result_5_percent">110%</td>
+					<td id="result_5" class="animate">2,876 cal/day</td>
+					<td id="result_5_percent" class="animate">110%</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--yellow">Weight gain</p></td>
 					<td id="result_6_weight">+1 lb/week</td>
-					<td id="result_6">3,126 cal/day</td>
-					<td id="result_6_percent">119%</td>
+					<td id="result_6" class="animate">3,126 cal/day</td>
+					<td id="result_6_percent" class="animate">119%</td>
 				</tr>
 				<tr>
 					<td><p class="tag tag--red">Extreme Weight gain</p></td>
 					<td id="result_7_weight">+2 lb/week</td>
-					<td id="result_7">3,626 cal/day</td>
-					<td id="result_7_percent">138%</td>
+					<td id="result_7" class="animate">3,626 cal/day</td>
+					<td id="result_7_percent" class="animate">138%</td>
 				</tr>
 			</tbody>
 		</table>
